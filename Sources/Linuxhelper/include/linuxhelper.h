@@ -16,7 +16,10 @@
 
 #ifndef linuxhelper_h
 #define linuxhelper_h
-    
+
+#include <sys/types.h>
+#include <unistd.h>
+
 /* Set thread name */
 int linux_pthread_setname_np(pthread_t thread, const char *name);
 
