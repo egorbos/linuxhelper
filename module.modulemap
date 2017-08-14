@@ -1,0 +1,3 @@
+module Linuxhelper {
+    header "Sources/Linuxhelper/include/linuxhelper.h"
+}
